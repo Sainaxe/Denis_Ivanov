@@ -1,3 +1,9 @@
+'''
+task1
+Реализовать функцию, принимающую два числа (позиционные аргументы) и выполняющую их деление.
+Числа запрашивать у пользователя, предусмотреть обработку ситуации деления на ноль.
+'''
+
 # x, y = (int(input("Enter x, y (numerator / denominator): ")) for _ in range (2))
 # x, y = (int(input()) for _ in range(2))
 x, y = (int(i) for i in input("Enter x, y (numerator / denominator): ").split())
